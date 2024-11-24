@@ -78,7 +78,7 @@ Use Configuration object
     from goose3.configuration import Configuration
 
     config = Configuration()
-    config.strict = False  # turn of strict exception handling
+    config.strict = False  # turn off strict exception handling
     config.browser_user_agent = 'Mozilla 5.0'  # set the browser agent string
     config.http_timeout = 5.05  # set http timeout in seconds
 
